@@ -1,5 +1,6 @@
 interface IColor {
-    [key: string]: string;
+    dark: string;
+    light: string;
 }
 
 export const POINT_COLOR: IColor = {
