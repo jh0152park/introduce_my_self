@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <div className="flex items-start justify-center w-full">
             <Header />
-            <main className="p-[5%] w-full h-screen max-w-[800px] ">
+            <main className="px-[2%] py-[5%] w-full h-screen max-w-[900px] ">
                 <Title />
                 <WorkExperience />
             </main>
