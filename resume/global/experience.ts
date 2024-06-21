@@ -82,7 +82,7 @@ export const WORK_EXPERIENCE: IWorkExperience = {
             description:
                 "매년 Google에서 공개하는 신규 OS를 Galaxy Device에 지원하는 과정에서오는 Performance Trade-Off를 최소화해 사용자 경험을 높은 수준으로 유지하기 위해 적절한 튜닝을 진행했습니다. 주로 Runtime 중에 CUP와 Memory에 불필요하게 Burdden을 주는 Processes들 최적화에 집중했습니다.",
             worked: [
-                "Unless High Priority Processes 삭제 및 메모리 확보",
+                "Useless High Priority Processes 삭제 및 메모리 확보",
                 "Application Launch Performance 유지를 위한 Platform 튜닝",
                 "OS Upgrade에 따른 System Memory Pressure를 줄이기 위한 Kernel 튜닝",
             ],
