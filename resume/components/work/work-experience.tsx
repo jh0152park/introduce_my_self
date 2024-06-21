@@ -21,7 +21,10 @@ export default function WorkExperience() {
                         <div className="flex flex-col items-start justify-start w-[50%] ">
                             <div className="flex flex-col items-start justify-start *:font-bold text-4xl">
                                 {work.company.split(" ").map((company) => (
-                                    <div className="flex items-start justify-start">
+                                    <div
+                                        key={company}
+                                        className="flex items-start justify-start"
+                                    >
                                         <span key={company}>{company}</span>
                                         {company === "무선사업부" && (
                                             <PointDot />
