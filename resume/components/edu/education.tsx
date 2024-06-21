@@ -9,7 +9,7 @@ export default function Education() {
             </div>
             <div className="flex flex-col items-start justify-start *:font-semibold">
                 <span>융합공학과</span>
-                <span>2019. 03 ~ 2023. 02</span>
+                <span>2019.03 ~ 2023.02</span>
             </div>
             <span className="font-semibold">
                 삼성전자 재직과 동시에 한양대학교ERICA 융합공학과 학부에 입학해
