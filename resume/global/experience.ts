@@ -22,19 +22,19 @@ interface IOtherExperience {
 export const WORK_EXPERIENCE: IWorkExperience[] = [
     {
         company: "삼성전자 무선사업부",
-        as: "System Engineer",
+        as: "System Performance Lab",
         period: "2014.02.14 ~ 2023.05.15",
         mission: [
             {
-                title: "QA Team 정규 시험결과 자동 분석 Slack Bot",
+                title: "Android Low Memory Killer Daemon",
                 description:
-                    "HQ, Chian, India, Vietnam QA Team에서 진행한 Official Performance Test 결과를 Slack 메세지 1줄로 자동으로 분석 및 오류검출 하는 In-House 자동화 툴을 1인 개발했습니다. Global로 진행하는 Official QA Test 분석을 보다 효율적으로 진행하고자 개발했으며, 기존 Manual 분석에 최소 20분 소요되었던 시간을 최대 7분 미만으로 줄였습니다.",
+                    "Runtime간 Device의 Memory를 적정 수준으로 유지함과 동시에 Multitaksing Performance를 최대로 끌어올려 사용자에게 더 좋은 경험을 제공하기 위해 Process를 Kill해 Memory Management하는 LMKD를 운영 및 유지보수 했습니다.",
                 worked: [
-                    "Slack Bot Server를 운영하는 팀과 협업",
-                    "Latest Resulut 자동으로 파싱 및 오류 검출하는 툴 개발",
-                    "Mobile Slack App으로도 가능해 사무실에 없을때에도 분석가능",
+                    "S-LSI, QC, MediaTech LMKD 마이그레이션",
+                    "Android Platform 및 Kernel Features 튜닝",
+                    "Multitasking Performance 향상을 위한 Process Priority Policy 운영",
                 ],
-                tech: ["Android", "Python", "Slack"],
+                tech: ["Android", "Kernel", "Java"],
             },
 
             {
@@ -74,15 +74,15 @@ export const WORK_EXPERIENCE: IWorkExperience[] = [
             },
 
             {
-                title: "Android Low Memory Killer Daemon",
+                title: "QA Team 정규 시험결과 자동 분석 Slack Bot",
                 description:
-                    "Runtime간 Device의 Memory를 적정 수준으로 유지함과 동시에 Multitaksing Performance를 최대로 끌어올려 사용자에게 더 좋은 경험을 제공하기 위해 Process를 Kill해 Memory Management하는 LMKD를 운영 및 유지보수 했습니다.",
+                    "HQ, Chian, India, Vietnam QA Team에서 진행한 Official Performance Test 결과를 Slack 메세지 1줄로 자동으로 분석 및 오류검출 하는 In-House 자동화 툴을 1인 개발했습니다. Global로 진행하는 Official QA Test 분석을 보다 효율적으로 진행하고자 개발했으며, 기존 Manual 분석에 최소 20분 소요되었던 시간을 최대 7분 미만으로 줄였습니다.",
                 worked: [
-                    "S-LSI, QC, MediaTech LMKD 마이그레이션",
-                    "Android Platform 및 Kernel Features 튜닝",
-                    "Multitasking Performance 향상을 위한 Process Priority Policy 운영",
+                    "Slack Bot Server를 운영하는 팀과 협업",
+                    "Latest Resulut 자동으로 파싱 및 오류 검출하는 툴 개발",
+                    "Mobile Slack App으로도 가능해 사무실에 없을때에도 분석가능",
                 ],
-                tech: ["Android", "Kernel", "Java"],
+                tech: ["Android", "Python", "Slack"],
             },
 
             {

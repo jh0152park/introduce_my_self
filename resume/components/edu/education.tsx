@@ -12,7 +12,7 @@ export default function Education() {
                 <span>2019.03 ~ 2023.02</span>
             </div>
             <span className="font-semibold">
-                삼성전자 재직과 동시에 한양대학교ERICA 융합공학과 학부에 입학해
+                삼성전자 재직과 함께 한양대학교ERICA 융합공학과 학부에 입학해
                 4년간 컴퓨터 구조, 알고리즘, CPU 구조 등의 과목을 우수한
                 성적으로 이수하였습니다.
             </span>
