@@ -1,4 +1,4 @@
-import { POINT_COLOR } from "@/global/style";
+import PointDot from "../common/point-dot";
 
 export default function Title() {
     return (
@@ -7,7 +7,7 @@ export default function Title() {
                 <span>안녕하세요,</span>
                 <div className="flex items-center justify-start ">
                     <span>저는 박재현입니다</span>
-                    <span className={`text-[${POINT_COLOR.dark}]`}>.</span>
+                    <PointDot />
                 </div>
             </div>
 
