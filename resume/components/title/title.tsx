@@ -14,9 +14,8 @@ export default function Title() {
             <div className="w-full text-3xl font-normal text-left">
                 Android System Engineer에서 Web Front Engineer를 목표로 정진하고
                 있습니다. 간결하고 직관적인 인터페이스를 구현하는 것을
-                좋아합니다. 개발자의 가치는 비즈니스를 통해 유저를 락인
-                시키는것에서 시작한다고 믿습니다. 주도적으로 업무에 몰입할수
-                있는 환경을 선호합니다.
+                좋아합니다. 조직의 성과와 개인의 성장을 최우선으로 하고있습니다.
+                주도적으로 업무에 몰입할수 있는 환경을 선호합니다.
             </div>
         </div>
     );

@@ -47,7 +47,7 @@ export const SKILLS: ISkill[] = [
     {
         title: "Python",
         description: [
-            "대용량, 대규모 데이터 처리와 분석 및 시각화 경험이 많습니다.",
+            "대용량, 대규모 데이터 처리와 분석 및 시각화에 다수의 경험이 있습니다.",
             "업무 자동화 및 효율화에 관심이 많으며 불필요한 프로세스 개선을 즐깁니다.",
             "반복적인 업무 해소와 대용량 데이터 분석을 위해 개발한 Tool을 사내 배포,유지,보수 경험이 많습니다.",
         ],
@@ -87,7 +87,7 @@ export const SKILLS: ISkill[] = [
             "Galaxy Tab S6 Series",
             "Galaxy Tab S7 Series",
             "Galaxy Tab S8 Series",
-            "Galaxy Watch 4",
+            "Galaxy Watch 4 Series",
         ],
     },
 ];

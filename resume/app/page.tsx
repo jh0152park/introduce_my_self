@@ -4,6 +4,7 @@ import Education from "@/components/edu/education";
 import WorkExperience from "@/components/work/work-experience";
 import OtherExperience from "@/components/other/other-experience";
 import Skill from "@/components/skill/skill";
+import Contact from "@/components/contact/contact";
 
 export default function Home() {
     return (
@@ -15,6 +16,7 @@ export default function Home() {
                 <OtherExperience />
                 <Education />
                 <Skill />
+                <Contact />
             </main>
         </div>
     );
