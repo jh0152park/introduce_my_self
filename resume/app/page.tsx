@@ -1,9 +1,12 @@
-import Image from "next/image";
+import Header from "@/components/navigate/header";
 
 export default function Home() {
     return (
-        <main>
-            <span>hi</span>
-        </main>
+        <div>
+            <Header />
+            <main className="p-10">
+                <span>hi</span>
+            </main>
+        </div>
     );
 }
