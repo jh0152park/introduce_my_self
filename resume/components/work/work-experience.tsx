@@ -1,6 +1,5 @@
-import { WORK_EXPERIENCE } from "@/global/experience";
 import PointDot from "../common/point-dot";
-import { POINT_COLOR } from "@/global/style";
+import { WORK_EXPERIENCE } from "@/global/experience";
 
 export default function WorkExperience() {
     const works = WORK_EXPERIENCE;
@@ -43,9 +42,7 @@ export default function WorkExperience() {
                                     key={misson.title}
                                     className="flex flex-col items-start justify-start w-full gap-10 mb-10"
                                 >
-                                    <span
-                                        className={`text-2xl font-bold text-[${POINT_COLOR.dark}]`}
-                                    >
+                                    <span className="text-2xl font-bold text-dark">
                                         {misson.title}
                                     </span>
 

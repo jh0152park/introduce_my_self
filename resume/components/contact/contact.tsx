@@ -1,6 +1,5 @@
 import PointDot from "../common/point-dot";
 import { CONTACTS } from "@/global/contact";
-import { POINT_COLOR } from "@/global/style";
 
 export default function Contact() {
     const contacts = CONTACTS;
@@ -26,10 +25,7 @@ export default function Contact() {
                             {contact.category === "Email" ? (
                                 <span>{contact.url}</span>
                             ) : (
-                                <a
-                                    href={contact.url}
-                                    className={`text-[${POINT_COLOR.dark}]`}
-                                >
+                                <a href={contact.url} className="text-dark">
                                     {contact.url}
                                 </a>
                             )}
