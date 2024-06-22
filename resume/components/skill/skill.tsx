@@ -6,7 +6,7 @@ export default function Skill() {
 
     return (
         <div className="flex flex-col items-start justify-start w-full gap-10">
-            <div className="flex items-center justify-start *:font-bold *:text-5xl">
+            <div className="flex items-center justify-start text-4xl font-bold sm:text-5xl">
                 <span>Skills</span>
                 <PointDot />
             </div>
@@ -14,11 +14,11 @@ export default function Skill() {
             <div className="flex flex-col items-start justify-start gap-20">
                 {skills.map((skill) => (
                     <div key={skill.title}>
-                        <div className="flex items-center justify-start mb-5 text-3xl font-bold">
+                        <div className="flex items-center justify-start mb-5 text-3xl font-bold sm:text-4xl">
                             <span>{skill.title}</span>
                             <PointDot />
                         </div>
-                        <div className="flex flex-col gap-2">
+                        <div className="flex flex-col gap-2 *:text-md text-sm">
                             {skill.description.map((description) => (
                                 <div
                                     key={description}

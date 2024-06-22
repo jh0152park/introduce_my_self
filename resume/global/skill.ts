@@ -63,7 +63,7 @@ export const SKILLS: ISkill[] = [
     },
 
     {
-        title: "신규 개발 및 OS Upgarde 참여 프로젝트",
+        title: "성능 담당 참여 프로젝트",
         description: [
             "Galaxy S6 Series",
             "Galaxy S7 Series",

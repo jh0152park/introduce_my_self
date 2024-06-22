@@ -26,7 +26,7 @@ export const WORK_EXPERIENCE: IWorkExperience[] = [
         period: "2014.02.14 ~ 2023.05.15",
         mission: [
             {
-                title: "Android Low Memory Killer Daemon",
+                title: "Low Memory Killer Daemon",
                 description:
                     "Runtime간 Device의 Memory를 적정 수준으로 유지함과 동시에 Multitaksing Performance를 최대로 끌어올려 사용자에게 더 좋은 경험을 제공하기 위해 Process를 Kill해 Memory Management하는 LMKD를 운영 및 유지보수 했습니다.",
                 worked: [
@@ -38,7 +38,7 @@ export const WORK_EXPERIENCE: IWorkExperience[] = [
             },
 
             {
-                title: "Android Device Memory Profiling",
+                title: "Android Memory Profiling",
                 description:
                     "Galaxy를 비롯한 Google, C-Brand의 Device에도 동작하는 Platform Memory를 분석하는 In-House 자동화 툴을 1인 개발했습니다. 이후 엑셀 포맷으로도 자동화를 진행해 비교분석 결과를 문서화 시켜 이력관리를 했고, PL팀에서 주력으로 사용한 S/W Version별 메모리 비교 사이트의 모태가 되었습니다.",
                 worked: [
@@ -74,7 +74,7 @@ export const WORK_EXPERIENCE: IWorkExperience[] = [
             },
 
             {
-                title: "QA Team 정규 시험결과 자동 분석 Slack Bot",
+                title: "정규 시험결과 자동 분석 Slack Bot",
                 description:
                     "HQ, Chian, India, Vietnam QA Team에서 진행한 Official Performance Test 결과를 Slack 메세지 1줄로 자동으로 분석 및 오류검출 하는 In-House 자동화 툴을 1인 개발했습니다. Global로 진행하는 Official QA Test 분석을 보다 효율적으로 진행하고자 개발했으며, 기존 Manual 분석에 최소 20분 소요되었던 시간을 최대 7분 미만으로 줄였습니다.",
                 worked: [
