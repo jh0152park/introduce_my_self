@@ -3,7 +3,7 @@ import PointDot from "../common/point-dot";
 export default function Education() {
     return (
         <div className="flex flex-col items-start justify-start w-full gap-5 py-10">
-            <div className="flex items-center justify-start *:font-bold *:text-4xl">
+            <div className="flex items-center justify-start text-3xl font-bold sm:text-4xl">
                 <span>한양대학교 ERICA</span>
                 <PointDot />
             </div>

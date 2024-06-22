@@ -6,7 +6,7 @@ export default function Contact() {
 
     return (
         <div className="flex flex-col items-start justify-start w-full gap-10">
-            <div className="flex items-center justify-start *:font-bold *:text-5xl">
+            <div className="flex items-center justify-start *:font-bold text-4xl sm:text-5xl">
                 <span>Contact Me</span>
                 <PointDot />
             </div>
@@ -15,13 +15,13 @@ export default function Contact() {
                 {contacts.map((contact) => (
                     <div
                         key={contact.category}
-                        className="flex items-center justify-start gap-2"
+                        className="flex items-center justify-start gap-2 "
                     >
-                        <div className="flex items-center justify-start gap-2 *:font-bold *:text-3xl">
+                        <div className="flex items-center justify-start gap-2 text-xl font-bold sm:text-3xl">
                             <PointDot />
-                            <span>{contact.category}:</span>
+                            <span>{contact.category}</span>
                         </div>
-                        <div className="text-xl font-semibold">
+                        <div className="font-semibold text-md sm:text-xl">
                             {contact.category === "Email" ? (
                                 <span>{contact.url}</span>
                             ) : (

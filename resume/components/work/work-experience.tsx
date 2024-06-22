@@ -6,7 +6,7 @@ export default function WorkExperience() {
 
     return (
         <div className="flex flex-col items-start justify-start w-full">
-            <div className="flex items-start justify-start my-20 text-5xl font-bold">
+            <div className="flex items-start justify-start my-20 text-4xl font-bold sm:text-5xl">
                 <span>Work Experience</span>
                 <PointDot />
             </div>
@@ -15,9 +15,9 @@ export default function WorkExperience() {
                 {works.map((work) => (
                     <div
                         key={work.company}
-                        className="flex items-start justify-start w-full"
+                        className="flex flex-col items-start justify-start w-full gap-5 sm:flex-row sm:gap-0"
                     >
-                        <div className="flex flex-col items-start justify-start w-[50%] ">
+                        <div className="flex flex-col items-start justify-start sm:w-[50%] w-full">
                             <div className="flex flex-col items-start justify-start *:font-bold text-4xl">
                                 {work.company.split(" ").map((company) => (
                                     <div
@@ -31,6 +31,7 @@ export default function WorkExperience() {
                                     </div>
                                 ))}
                             </div>
+
                             <div className="flex flex-col items-start justify-start mt-5 *:font-semibold">
                                 <span>{work.as}</span>
                                 <span>{work.period}</span>
@@ -42,27 +43,27 @@ export default function WorkExperience() {
                                     key={misson.title}
                                     className="flex flex-col items-start justify-start w-full gap-10 mb-10"
                                 >
-                                    <span className="text-2xl font-bold text-dark">
+                                    <span className="text-2xl font-bold sm:text-3xl text-dark">
                                         {misson.title}
                                     </span>
 
-                                    <div className="flex flex-col items-start justify-start">
+                                    <div className="flex flex-col items-start justify-start gap-2">
                                         <span className="text-xl font-bold">
                                             Description
                                         </span>
-                                        <span className="text-md ">
+                                        <span className="text-sm sm:text-md ">
                                             {misson.description}
                                         </span>
                                     </div>
 
-                                    <div className="flex flex-col items-start justify-start">
+                                    <div className="flex flex-col items-start justify-start gap-2">
                                         <span className="text-xl font-bold">
                                             What I did
                                         </span>
                                         {misson.worked.map((work) => (
                                             <div
                                                 key={work}
-                                                className="flex items-center justify-start gap-1 text-md"
+                                                className="flex items-center justify-start gap-1 text-sm sm:text-md"
                                             >
                                                 <PointDot />
                                                 <span>{work}</span>
@@ -70,12 +71,12 @@ export default function WorkExperience() {
                                         ))}
                                     </div>
 
-                                    <div className="flex flex-col items-start justify-start">
+                                    <div className="flex flex-col items-start justify-start gap-2">
                                         <span className="text-xl font-bold">
                                             Tech Stack
                                         </span>
 
-                                        <div className="flex items-center justify-start gap-3 text-md">
+                                        <div className="flex items-center justify-start gap-3 text-sm sm:text-md">
                                             {misson.tech.map((tech) => (
                                                 <span key={tech}>{tech}</span>
                                             ))}

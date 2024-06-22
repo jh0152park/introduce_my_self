@@ -8,9 +8,9 @@ import Contact from "@/components/contact/contact";
 
 export default function Home() {
     return (
-        <div className="flex items-start justify-center w-full">
+        <div className="relative flex items-start justify-center w-full ">
             <Header />
-            <main className="px-[2%] py-[5%] w-full min-h-screen max-w-[900px] flex flex-col items-start justify-start gap-10">
+            <main className="px-[3%] py-[10%] w-full min-h-screen max-w-[900px] flex flex-col items-center justify-start gap-10  ">
                 <Title />
                 <WorkExperience />
                 <OtherExperience />
