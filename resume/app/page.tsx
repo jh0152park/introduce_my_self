@@ -10,7 +10,7 @@ export default function Home() {
     return (
         <div className="relative flex items-start justify-center w-full ">
             <Header />
-            <main className="px-[3%] py-[10%] w-full min-h-screen max-w-[900px] flex flex-col items-center justify-start gap-10  ">
+            <main className="px-[3%] py-[10%] w-full min-h-screen max-w-[950px] flex flex-col items-center justify-start gap-10  ">
                 <Title />
                 <WorkExperience />
                 <OtherExperience />

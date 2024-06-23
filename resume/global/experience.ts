@@ -28,13 +28,27 @@ export const WORK_EXPERIENCE: IWorkExperience[] = [
             {
                 title: "Performance BigData 분석",
                 description:
-                    "전 세계 10억명 이상이 사용하는 Samsung Galaxy Smart Phone의 Runtime간 Platform Performance BigData를 수집해 단말의 H/W Spec, S/W Version, Region, Gender, Etc 기반으로 분석해 On Device Machine Learning Solution의 초기 학습 모델의 Back Data로 사용했습니다.",
+                    "전 세계 10억명 이상이 사용하는 Samsung Galaxy Smart Phone의 Runtime간 Platform Performance BigData를 수집해 단말의 H/W Spec, S/W Version, Region, Etc 기반으로 분석해 On Device Machine Learning Solution의 초기 학습 모델의 Back Data로 사용했습니다.",
                 worked: [
                     "BigData 기반 Abnormal Applications 선별",
                     "BigData 기반 Frequently Used Applications 선별",
-                    "Collect initial training data for on-device machine learning for performance",
+                    "성능 개선을 위한 On Device Machine Learning Solution 초기 학습 데이터 수집",
+                    "H/W Spec, S/W Version별 최대 Multitasking Performance를 위한 Feature Tuning 최적화",
                 ],
                 tech: ["Android", "Java", "BigData"],
+            },
+
+            {
+                title: "On Device Machine Learning",
+                description:
+                    "사용자별 Application 사용 패턴과 환경에 따른 맞춤형 On Device Machine Learning Solutions 개발에 참여했습니다. Side Effects가 적은 불필요한 High Priority ADJ Processess를 학습해 Runtime간 Pause 또는 Kill을 통해 추가적인 Free Memory를 확보해 Multitasking Performance를 향상시킵니다. 또한 사용자가 자주 사용하는 Application을 Backbground에서 최소한의 Resources로 Process를 미리 살려두어 Application Launch Performance를 향상시켜 사용자 경험을 최적화 시켰습니다.",
+                worked: [
+                    "Useless High Priority Processes 학습 및 선별",
+                    "M/L 유무에 따른 Runtime Platform Memory 분석",
+                    "M/L에 의한 Background Processes Memory 분석",
+                    "M/L에 의한 Background Processes Launch Time Performance 분석",
+                ],
+                tech: ["Android", "Java"],
             },
 
             {
