@@ -26,6 +26,18 @@ export const WORK_EXPERIENCE: IWorkExperience[] = [
         period: "2014.02.14 ~ 2023.05.15",
         mission: [
             {
+                title: "Performance BigData 분석",
+                description:
+                    "전 세계 10억명 이상이 사용하는 Samsung Galaxy Smart Phone의 Runtime간 Platform Performance BigData를 수집해 단말의 H/W Spec, S/W Version, Region, Gender, Etc 기반으로 분석해 On Device Machine Learning Solution의 초기 학습 모델의 Back Data로 사용했습니다.",
+                worked: [
+                    "BigData 기반 Abnormal Applications 선별",
+                    "BigData 기반 Frequently Used Applications 선별",
+                    "Collect initial training data for on-device machine learning for performance",
+                ],
+                tech: ["Android", "Java", "BigData"],
+            },
+
+            {
                 title: "Low Memory Killer Daemon",
                 description:
                     "Runtime간 Device의 Memory를 적정 수준으로 유지함과 동시에 Multitaksing Performance를 최대로 끌어올려 사용자에게 더 좋은 경험을 제공하기 위해 Process를 Kill해 Memory Management하는 LMKD를 운영 및 유지보수 했습니다.",
