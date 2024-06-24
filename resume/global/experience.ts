@@ -105,7 +105,7 @@ export const WORK_EXPERIENCE: IWorkExperience[] = [
                     "HQ, China, India, Vietnam QA Team에서 진행한 Official Performance Test 결과를 Slack 메세지 1줄로 자동으로 분석 및 오류검출 하는 In-House 자동화 툴을 1인 개발했습니다. Global로 진행하는 Official QA Test 분석을 보다 효율적으로 진행하고자 개발했으며, 기존 Manual 분석에 최소 20분 소요되었던 시간을 최대 7분 미만으로 줄였습니다.",
                 worked: [
                     "Slack Bot Server를 운영하는 팀과 협업",
-                    "Latest Resulut 자동으로 파싱 및 오류 검출하는 툴 개발",
+                    "Latest Result 자동으로 파싱 및 오류 검출하는 툴 개발",
                     "Mobile Slack App으로도 가능해 사무실에 없을때에도 분석가능",
                 ],
                 tech: ["Android", "Python", "Slack"],
