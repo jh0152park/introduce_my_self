@@ -18,7 +18,7 @@ export default function Skill() {
                             <span>{skill.title}</span>
                             <PointDot />
                         </div>
-                        <div className="flex flex-col gap-2 *:text-md text-sm">
+                        <div className="flex flex-col gap-2 *:text-lg text-sm">
                             {skill.description.map((description) => (
                                 <div
                                     key={description}

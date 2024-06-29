@@ -5,8 +5,8 @@ interface IContact {
 
 export const CONTACTS: IContact[] = [
     {
-        category: "Github",
-        url: "https://github.com/jh0152park",
+        category: "Blog",
+        url: "https://velog.io/@jh0152park/posts",
     },
 
     {
@@ -15,7 +15,7 @@ export const CONTACTS: IContact[] = [
     },
 
     {
-        category: "Blog",
-        url: "https://velog.io/@jh0152park/posts",
+        category: "Github",
+        url: "https://github.com/jh0152park",
     },
 ];
