@@ -26,14 +26,14 @@ export const SKILLS: ISkill[] = [
         ],
     },
 
-    {
-        title: "Web",
-        description: [
-            "NextJS App Route와 React를 사용합니다.",
-            "Chrome과 Safari를 비롯해 다양한 OS 및 브라우저를 지원할 수 있습니다.",
-            "JavaScript와 TypeScript 사용에 어려움이 없고 ES6 문법을 사용합니다.",
-        ],
-    },
+    // {
+    //     title: "Web",
+    //     description: [
+    //         "NextJS App Route와 React를 사용합니다.",
+    //         "Chrome과 Safari를 비롯해 다양한 OS 및 브라우저를 지원할 수 있습니다.",
+    //         "JavaScript와 TypeScript 사용에 어려움이 없고 ES6 문법을 사용합니다.",
+    //     ],
+    // },
 
     {
         title: "Android",
